@@ -12,7 +12,7 @@ async function displayProducts(): Promise<void> {
 
     card.innerHTML = `
     <img src="${product.thumbnail}" alt"${product.title}" />
-    <h3>${product.title}</h3>
+    <h3><strong>${product.title}</strong></h3>
     <p>${product.description}</p>
     <p><strong>$${product.price}</strong></p>
     <p>⭐ ${product.rating} | Stock: ${product.stock}</p>
